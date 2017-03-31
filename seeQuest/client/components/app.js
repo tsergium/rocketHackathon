@@ -1,9 +1,10 @@
 import React from 'react';
-
+import MyMap from './map/mapcontainer';
 
 export default () => {
     return (
-        <div>seeQuest</div>
-
+        <div>
+            <MyMap />
+        </div>
     );
 };
