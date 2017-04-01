@@ -5,7 +5,6 @@ import { Categories } from '../../imports/collections/categories';
 
 class CategoryList extends Component {
     renderRows() {
-        console.log(this.props.categories);
         return this.props.categories.map(category => {
             const { token, name } = category;
             const shortLink = `http://localhost:3000/${token}`;
