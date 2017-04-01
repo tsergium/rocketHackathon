@@ -3,7 +3,6 @@ accounts-password@1.3.4
 accounts-ui@1.1.9
 accounts-ui-unstyled@1.2.1
 allow-deny@1.0.5
-autopublish@1.0.7
 autoupdate@1.3.12
 babel-compiler@6.14.1
 babel-runtime@1.0.1
@@ -17,8 +16,8 @@ caching-compiler@1.1.9
 caching-html-compiler@1.1.2
 callback-hook@1.0.10
 check@1.2.5
-dburles:google-maps@1.1.5
 cultofcoders:meteor-react-routing@1.0.3
+dburles:google-maps@1.1.5
 ddp@1.2.5
 ddp-client@1.3.3
 ddp-common@1.2.8

@@ -8,6 +8,10 @@ meteor add twbs:bootstrap@3.3.6
 meteor add accounts-ui accounts-password
 meteor npm install --save react-router
 meteor remove insecure
+meteor remove autopublish
+npm i --save react-mounter
+meteor npm install --save react-popup
+meteor npm install --save bcrypt
 ```
 
 ### Map Dependancies ###
