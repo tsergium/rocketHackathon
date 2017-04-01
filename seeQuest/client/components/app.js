@@ -1,35 +1,11 @@
 import React, { Component } from 'react';
 import Header from './header';
-import Map from './map';
-import CategoryList from './categories';
 
-class App extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = { userId: null };
-    }
-
-    componentWillMount() {
-        if (Meteor.userId()) {
-            this.setState({
-                userId: Meteor.userId()
-            });
-        } else {
-            this.setState({
-                userId: null
-            });
-        }
-    }
-    render() {
-        return (
-            <div>
-                <Header/>
-                <CategoryList />
-                <Map userId={Meteor.userId()}/>
-            </div>
-        );
-    }
+export default (props) => {
+    return (
+        <div>
+            <Header/>
+            {props.children}
+        </div>
+    );
 };
-
-export default App;

@@ -1,10 +1,19 @@
 import { Meteor } from 'meteor/meteor';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Categories } from '../imports/collections/categories';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import App from './components/app';
+import Map from './components/map';
+
+const routes = (
+    <Router history={browserHistory}>
+        <Route path="/" component={App}>
+            <Route path="test" component={Map} />
+        </Route>
+    </Router>
+);
 
 Meteor.startup(() => {
-    ReactDOM.render(<App />, document.querySelector('.render-target'));
+    ReactDOM.render(routes, document.querySelector('.render-target'));
 });
