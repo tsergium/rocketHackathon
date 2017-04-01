@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './header';
-import MyMap from './map/mapcontainer';
+import Map from './map';
 
 export default () => {
     return (
         <div>
             <Header/>
-            <MyMap />
+            <Map />
         </div>
     );
 };

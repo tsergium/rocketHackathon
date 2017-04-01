@@ -1,5 +1,6 @@
 import React from 'react';
 import GoogleMap from './lib/GoogleMap';
+import { Meteor } from 'meteor/meteor';
 
 function handleMapOptions() {
     let latLng = Geolocation.currentLocation();
@@ -186,6 +187,8 @@ function handleOnReady(name) {
 }
 
 function MyMap() {
+    let isLoggedIn = Meteor.user();
+    console.log(isLoggedIn);
     return (
         <GoogleMap onReady={handleOnReady} mapOptions={handleMapOptions}>
             Loading!
