@@ -4,9 +4,7 @@
     min-height: 650px;
     height: 100%;
 }
-
 body, .navbar-default{background: silver;}
-
 /* Begin: Screens */
 .splashScreen{
     background: url('http://localhost:3000/splash.png') no-repeat center center fixed;
@@ -25,7 +23,6 @@ body, .navbar-default{background: silver;}
     top: 0;
     left: 0;
 }
-
 .startScreen{
     background: url('http://localhost:3000/start.png') no-repeat center center fixed;
     -webkit-background-size: cover;
