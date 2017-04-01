@@ -3,7 +3,7 @@ import GoogleMap from './lib/GoogleMap';
 import { Meteor } from 'meteor/meteor';
 
 function handleMapOptions() {
-    let latLng = Geolocation.currentLocation();
+    // let latLng = Geolocation.currentLocation();
     //console.log(`debug: ${latLng}`);
     // let latLng = Geolocation.currentLocation().latLng();
     return {
@@ -189,7 +189,28 @@ function handleOnReady(name) {
             map: map.instance,
             icon: image
         });
+        let infowindow = new google.maps.InfoWindow({
+            content: 'test content marker 1',
+            boxStyle: {
+                background: "url('http://localhost:3000/marker1ImagePopUp.png') no-repeat",
+                opacity: 0.75,
+                width: "280px",
+                height: "100px"
+            }
+        });
+        let infowindow2 = new google.maps.InfoWindow({
+            content: 'Test'
+        });
+
+        marker.addListener('click', function(event){
+            infowindow.open(map.instance, marker);
+        }) ;
+
+        marker2.addListener('click', function(event){
+            infowindow2.open(map.instance, marker);
+        })
     });
+
 }
 
 function MyMap() {
