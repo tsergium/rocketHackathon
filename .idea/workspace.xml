@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24e670e6-e219-4ab1-9c47-c60e781d79e8" name="Default" comment="Added map component">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seeQuest/client/components/splash_screen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seeQuest/client/components/start/cat_list.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seeQuest/client/components/splashscreen.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/seeQuest/client/components/hello.js" afterPath="$PROJECT_DIR$/seeQuest/client/components/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/seeQuest.iml" afterPath="$PROJECT_DIR$/.idea/seeQuest.iml" />
+    <list default="true" id="24e670e6-e219-4ab1-9c47-c60e781d79e8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/seeQuest/client/components/router.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/seeQuest/client/components/start/cat_list.js" afterPath="$PROJECT_DIR$/seeQuest/client/components/cat_list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/.meteor/packages" afterPath="$PROJECT_DIR$/seeQuest/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/.meteor/versions" afterPath="$PROJECT_DIR$/seeQuest/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/client/components/app.js" afterPath="$PROJECT_DIR$/seeQuest/client/components/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/client/main.css" afterPath="$PROJECT_DIR$/seeQuest/client/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/client/main.js" afterPath="$PROJECT_DIR$/seeQuest/client/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/client/components/start.js" afterPath="$PROJECT_DIR$/seeQuest/client/components/start.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seeQuest/package.json" afterPath="$PROJECT_DIR$/seeQuest/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seeQuest/client/components/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="162">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -74,10 +67,11 @@
       <file leaf-file-name="mapcontainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seeQuest/client/components/map/mapcontainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3402">
-              <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="190" selection-end-column="28" />
+            <state relative-caret-position="237">
+              <caret line="190" column="28" lean-forward="true" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#462#4884#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,9 +80,11 @@
       <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seeQuest/client/components/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seeQuest/client/components/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="categories.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seeQuest/client/components/categories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="234">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -153,8 +139,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -206,7 +192,7 @@
         <entry file="file://$PROJECT_DIR$/seeQuest/imports/startup/client/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -214,11 +200,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seeQuest/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -237,10 +223,10 @@
         </entry>
       </file>
       <file leaf-file-name="cat_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seeQuest/client/components/start/cat_list.js">
+        <entry file="file://$PROJECT_DIR$/seeQuest/client/components/cat_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -261,8 +247,8 @@
       <file leaf-file-name="splash_screen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seeQuest/client/components/splash_screen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="54">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -307,12 +293,13 @@
         <option value="$PROJECT_DIR$/seeQuest/client/components/splash_screen.js" />
         <option value="$PROJECT_DIR$/seeQuest/client/components/popup.js" />
         <option value="$PROJECT_DIR$/seeQuest/client/components/cat_popup.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/seeQuest/imports/startup/client/routes.js" />
         <option value="$PROJECT_DIR$/seeQuest/client/components/app.js" />
-        <option value="$PROJECT_DIR$/seeQuest/client/components/start/cat_list.js" />
-        <option value="$PROJECT_DIR$/seeQuest/client/components/start.js" />
         <option value="$PROJECT_DIR$/seeQuest/client/main.js" />
+        <option value="$PROJECT_DIR$/seeQuest/client/components/start/cat_list.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/seeQuest/client/components/start.js" />
+        <option value="$PROJECT_DIR$/seeQuest/client/components/cat_list.js" />
       </list>
     </option>
   </component>
@@ -551,7 +538,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="start" />
+              <option name="myItemId" value="map" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,8 +570,8 @@
       <recent name="$PROJECT_DIR$/seeQuest/client/img/theme" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/seeQuest/public" />
       <recent name="$PROJECT_DIR$/seeQuest/client/components" />
+      <recent name="$PROJECT_DIR$/seeQuest/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -690,7 +677,7 @@
       <workItem from="1491035096835" duration="9624000" />
       <workItem from="1491047431474" duration="54000" />
       <workItem from="1491047586048" duration="257000" />
-      <workItem from="1491056190380" duration="6919000" />
+      <workItem from="1491056190380" duration="10182000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1490975686767</created>
@@ -783,17 +770,24 @@
       <option name="project" value="LOCAL" />
       <updated>1491063025922</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Routing prototype">
+      <created>1491063120290</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491063120290</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23293000" />
+    <option name="totallyTimeSpent" value="26556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22685888" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22685888" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -862,7 +856,8 @@
     <MESSAGE value="Added routing" />
     <MESSAGE value="Added images for first 2 screens" />
     <MESSAGE value="moved routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved routes" />
+    <MESSAGE value="Routing prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routing prototype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -930,6 +925,7 @@
           <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="190" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#462#4884#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -938,7 +934,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,6 +1026,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#462#4884#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1096,16 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/map/mapcontainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="190" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seeQuest/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1130,30 +1119,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seeQuest/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/public/splash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/public/start.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seeQuest/client/main.css">
@@ -1172,40 +1143,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seeQuest/client/components/cat_popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/splash_screen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1249,26 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/categories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seeQuest/client/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1276,6 +1198,24 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/imports/startup/client/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,30 +1229,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/start/cat_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/seeQuest/public/splash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeQuest/imports/startup/client/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/seeQuest/public/start.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seeQuest/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/splash_screen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/categories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/map/mapcontainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="190" column="28" lean-forward="true" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#462#4884#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/cat_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeQuest/client/components/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

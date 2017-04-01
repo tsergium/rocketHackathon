@@ -12,6 +12,7 @@ meteor remove autopublish
 npm i --save react-mounter
 meteor npm install --save react-popup
 meteor npm install --save bcrypt
+npm i --save lodash
 ```
 
 ### Map Dependancies ###

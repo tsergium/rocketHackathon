@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import CatList from './start/cat_list';
+import CatList from './cat_list';
 
 class Start extends Component {
     render() {
         return(
-            <div>
-                <Link className="startScreen">
-                </Link>
+            <Link className="startScreen">
                 <CatList />
-            </div>
+            </Link>
+
         );
     }
 }
