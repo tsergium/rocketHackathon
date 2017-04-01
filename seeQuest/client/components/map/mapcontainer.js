@@ -2,8 +2,9 @@ import React from 'react';
 import GoogleMap from './lib/GoogleMap';
 
 function handleMapOptions() {
+    let latLng = Geolocation.currentLocation().latLng();
     return {
-        center: new google.maps.LatLng(-37.8136, 144.9631),
+        center: new google.maps.LatLng(latLng.lat, latLng.lng),
         zoom: 8,
     };
 }
