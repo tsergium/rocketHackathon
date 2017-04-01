@@ -41,3 +41,57 @@ body, .navbar-default{background: silver;}
     left: 0;
 }
 /* End: Screens */
+
+/*BEGIN : MAP PAGE*/
+.questSideBar{
+    width: 15%;
+    background: white;
+    -webkit-box-shadow: 3px 0px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 9px -1px rgba(0,0,0,0.75);
+    height: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.mapContainer{
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.headerSidebar{
+    background: url("http://localhost:3000/questSidebarHeaderCat.jpg") no-repeat center center;
+    background-size: contain;
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.questSideBar ul{
+    list-style: none;
+}
+
+.questSideBar ul li {
+    background: url("http://localhost:3000/questSidePointGreen.jpg") no-repeat left center;
+    width: 100%;
+    height: 60px;
+    background-size: contain;
+    text-align: center;
+    margin: 5px 0 0 0;
+    color: #1DAC80;
+    font-size: 16px;
+}
+
+.questSideBar ul li p.text{
+    display: inline-block;
+    margin: 35px 0 0 20px;
+}
