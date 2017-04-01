@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
 import Map from './map';
-import { Meteor } from 'meteor/meteor';
+import CategoryList from './categories';
 
 class App extends Component {
     constructor(props) {
@@ -21,15 +21,15 @@ class App extends Component {
             });
         }
     }
-
     render() {
-        return(
+        return (
             <div>
                 <Header/>
-                <Map userId={Meteor.userId()} />
+                <CategoryList />
+                <Map userId={Meteor.userId()}/>
             </div>
         );
     }
-}
+};
 
 export default App;
