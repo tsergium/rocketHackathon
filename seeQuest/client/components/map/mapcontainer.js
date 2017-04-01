@@ -175,13 +175,19 @@ function handleMapOptions() {
 
 function handleOnReady(name) {
     GoogleMaps.ready(name, map => {
+        const image = {
+            url: 'http://localhost:3000/greenMarker.png',// image is in root directory of meteor project.
+        };
+
         const marker = new google.maps.Marker({
             position: map.options.center,
             map: map.instance,
+            icon: image
         });
         const marker2 = new google.maps.Marker({
             position: (new google.maps.LatLng(52.504948, 13.393550)), // Game Science Center
             map: map.instance,
+            icon: image
         });
     });
 }

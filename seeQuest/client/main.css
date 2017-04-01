@@ -82,6 +82,12 @@ body, .navbar-default{background: silver;}
     text-align: center;
 }
 
+p.headerSidebarText{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
 .questSideBar ul{
     list-style: none;
 }
