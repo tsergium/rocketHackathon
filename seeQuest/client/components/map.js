@@ -1,31 +1,14 @@
-import React, { Component } from 'react';
-import { Meteor } from 'meteor/meteor';
+import React from 'react';
 import MyMap from './map/mapcontainer';
 
-class Map extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = { userId: Meteor.userId() };
-    }
-
-    componentDidMount() {
-        this.setState({
-            userId: Meteor.userId()
-        });
-    }
-
-    render() {
-        if (Meteor.userId()) {
-            return (
-                <MyMap/>
-            );
-        } else {
-            return (
-                <div></div>
-            );
-        }
-    }
-}
+const Map = ({userId}) => {
+    // if (!userId) {
+    //     return <div></div>;
+    // } else {
+        return (
+            <MyMap/>
+        );
+    // }
+};
 
 export default Map;
