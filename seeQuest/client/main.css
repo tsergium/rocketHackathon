@@ -8,8 +8,8 @@ a{
     height: 100%;
 }
 .modal-dialog{
-    width: 28em;
-    height: 11em;
+    width: 32em;
+    height: 12em;
     padding: 10px;
     background-color: #ffe670;
     z-index: 999;
@@ -147,8 +147,8 @@ p.headerSidebarText{
 
 .to-map-button{
     background: url("/start_quest_button.png") no-repeat left center;
-    background-size: cover;
-    width: 22em;
+    background-size: contain;
+    width: 14em;
     height: 5em;
     margin: 5em 5em 0 0;
     display: block;
@@ -159,7 +159,6 @@ p.headerSidebarText{
 
 .cat-modal-details{
     width: 6em;
-    margin: 1em;
     float: left;
 }
 
