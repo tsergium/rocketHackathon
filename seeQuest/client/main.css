@@ -56,7 +56,7 @@ body, .navbar-default{background: silver;}
     left: 0;
 }
 .startScreen{
-    background: url('/start1.png') no-repeat center center fixed;
+    background: url('/start.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -167,4 +167,39 @@ p.headerSidebarText{
     float: right;
     margin: 0 2em 2em 0;
     color: #333;
+}
+
+
+.questSideBar ul li.lastPoint{
+    background: url("/lastoneGray.png") no-repeat left center;
+    width: 100%;
+    height: 40px;
+    background-size: contain;
+    text-align: center;
+    margin: 35px 0 0 0;
+    color: #1DAC80;
+    font-size: 16px;
+}
+
+.questSideBar ul li.lastPoint.active{
+    background: url("/lastoneSidebar.png") no-repeat left center;
+}
+
+.marker1Info{
+    background: url("/marker1Pic.png") no-repeat center center;
+    width: 590px;
+    height: 504px;
+    background-size: contain;
+}
+.marker2Info{
+    background: url("/marker2Picture.png") no-repeat center center;
+    width: 590px;
+    height: 504px;
+    background-size: contain;
+}
+.markerFinalInfo{
+    background: url("/markerFinalPicture.png") no-repeat center center;
+    width: 590px;
+    height: 504px;
+    background-size: contain;
 }
