@@ -7,7 +7,7 @@ function handleMapOptions() {
     //console.log(`debug: ${latLng}`);
     // let latLng = Geolocation.currentLocation().latLng();
     return {
-        center: new google.maps.LatLng(52.510457, 13.389879), // positioned to Berlin as default
+        center: new google.maps.LatLng(52.514136, 13.392802),  // Gendarmenmarkt
         zoom: 15,
         disableDefaultUI: true,
         styles: [
@@ -175,40 +175,102 @@ function handleMapOptions() {
 
 function handleOnReady(name) {
     GoogleMaps.ready(name, map => {
+        const imagePerson = {
+            url: 'http://localhost:3000/icPerson.png',// image is in root directory of meteor project.
+        };
+
         const image = {
             url: 'http://localhost:3000/greenMarker.png',// image is in root directory of meteor project.
+        };
+
+        const imageFinal = {
+            url: 'http://localhost:3000/catMarkerGreen.png',// image is in root directory of meteor project.
         };
 
         const marker = new google.maps.Marker({
             position: map.options.center,
             map: map.instance,
-            icon: image
+            icon: imagePerson
         });
-        const marker2 = new google.maps.Marker({
-            position: (new google.maps.LatLng(52.504948, 13.393550)), // Game Science Center
+        const marker1 = new google.maps.Marker({
+            position: (new google.maps.LatLng(52.517910, 13.394084)), //Humbold univ
             map: map.instance,
-            icon: image
-        });
-        let infowindow = new google.maps.InfoWindow({
-            content: 'test content marker 1',
-            boxStyle: {
-                background: "url('http://localhost:3000/marker1ImagePopUp.png') no-repeat",
-                opacity: 0.75,
-                width: "280px",
-                height: "100px"
-            }
-        });
-        let infowindow2 = new google.maps.InfoWindow({
-            content: 'Test'
+            icon: image,
+            animation: google.maps.Animation.DROP,
         });
 
-        marker.addListener('click', function(event){
-            infowindow.open(map.instance, marker);
+        const marker2 = new google.maps.Marker({
+            position: (new google.maps.LatLng(52.511205, 13.393501)), //Löwenbräu am Gendarmenmarkt
+            map: map.instance,
+            icon: image,
+            animation: google.maps.Animation.DROP,
+        });
+        const marker3 = new google.maps.Marker({
+            position: (new google.maps.LatLng(52.510003, 13.399773)), // Courtyard by Marriott Berlin City Center
+            map: map.instance,
+            icon: image,
+            animation: google.maps.Animation.DROP,
+        });
+
+        const marker4 = new google.maps.Marker({
+            position: (new google.maps.LatLng(52.509017, 13.391190)), // Curry museum
+            map: map.instance,
+            icon: image,
+            animation: google.maps.Animation.DROP,
+        });
+
+        const marker5 = new google.maps.Marker({
+            position: (new google.maps.LatLng(52.506854, 13.392787)), // Rocket Tower
+            map: map.instance,
+            icon: imageFinal,
+            animation: google.maps.Animation.DROP,
+        });
+
+        let infowindow1 = new google.maps.InfoWindow({
+            content: 'Humbold univ',
+            // boxStyle: {
+            //     background: "url('http://localhost:3000/marker1ImagePopUp.png') no-repeat",
+            //     opacity: 0.75,
+            //     width: "280px",
+            //     height: "100px",
+            //     animation: google.maps.Animation.DROP,
+            // }
+        });
+        let infowindow2 = new google.maps.InfoWindow({
+            content: 'Löwenbräu am Gendarmenmarkt'
+        });
+
+        let infowindow3 = new google.maps.InfoWindow({
+            content: 'Courtyard by Marriott Berlin City Center'
+        });
+
+        let infowindow4 = new google.maps.InfoWindow({
+            content: 'Curry museum'
+        });
+
+        let infowindow5 = new google.maps.InfoWindow({
+            content: 'Rocket Tower'
+        });
+
+        marker1.addListener('click', function(event){
+            infowindow1.open(map.instance, marker1);
         }) ;
 
         marker2.addListener('click', function(event){
-            infowindow2.open(map.instance, marker);
-        })
+            infowindow2.open(map.instance, marker2);
+        });
+
+        marker3.addListener('click', function(event){
+            infowindow3.open(map.instance, marker3);
+        });
+
+        marker4.addListener('click', function(event){
+            infowindow4.open(map.instance, marker4);
+        });
+
+        marker5.addListener('click', function(event){
+            infowindow5.open(map.instance, marker5);
+        });
     });
 
 }
