@@ -1,13 +1,18 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router';
-import CatList from './cat_list';
+import React, {Component} from "react";
+import CatList from "./cat_list";
+import {browserHistory} from "react-router";
+import Modal from './modal';
 
 class Start extends Component {
+    redirectTo() {
+        browserHistory.push('/map');
+    }
     render() {
         return(
-            <Link className="startScreen">
-                <CatList />
-            </Link>
+            <div className="startScreen">
+                {/*<CatList />*/}
+                <a className="to-map-button" href="#" onClick={this.redirectTo.bind(this)}></a>
+            </div>
 
         );
     }
