@@ -6,7 +6,7 @@ class SideBar extends Component {
         return (
             <div className="questSideBar">
                 <div className="headerSidebar"></div>
-                <p className="headerSidebarText"><b>Pint</b>'s footprints</p>
+                <p className="headerSidebarText"><b>Pint</b>'s paw prints</p>
                 <QuestPoints/>
             </div>
         );
