@@ -18,8 +18,7 @@ class Modal extends Component {
     render () {
         return (
             <div className="modal-windows">
-                <a className="open-modal" onClick={this.openModal.bind(this)}>
-                </a>
+                <a className="open-modal" onClick={this.openModal.bind(this)}></a>
 
                 {this.state.modalActive && (
                     <div className='modal-dialog'>
