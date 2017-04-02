@@ -187,6 +187,8 @@ function handleOnReady(name) {
             url: 'http://localhost:3000/catMarkerGreen.png',// image is in root directory of meteor project.
         };
 
+        const sidebarQuestPoint = document.querySelectorAll('.questPoints li');
+
         const marker = new google.maps.Marker({
             position: map.options.center,
             map: map.instance,
@@ -204,12 +206,14 @@ function handleOnReady(name) {
             map: map.instance,
             icon: image,
             animation: google.maps.Animation.DROP,
+            visible: false
         });
         const marker3 = new google.maps.Marker({
             position: (new google.maps.LatLng(52.510003, 13.399773)), // Courtyard by Marriott Berlin City Center
             map: map.instance,
             icon: image,
             animation: google.maps.Animation.DROP,
+            visible: false
         });
 
         const marker4 = new google.maps.Marker({
@@ -217,6 +221,7 @@ function handleOnReady(name) {
             map: map.instance,
             icon: image,
             animation: google.maps.Animation.DROP,
+            visible: false
         });
 
         const marker5 = new google.maps.Marker({
@@ -224,52 +229,56 @@ function handleOnReady(name) {
             map: map.instance,
             icon: imageFinal,
             animation: google.maps.Animation.DROP,
+            visible: false
         });
 
         let infowindow1 = new google.maps.InfoWindow({
-            content: 'Humbold univ',
-            // boxStyle: {
-            //     background: "url('http://localhost:3000/marker1ImagePopUp.png') no-repeat",
-            //     opacity: 0.75,
-            //     width: "280px",
-            //     height: "100px",
-            //     animation: google.maps.Animation.DROP,
-            // }
+            content: '<div class="marker1Info"></div>',
+
         });
         let infowindow2 = new google.maps.InfoWindow({
-            content: 'Löwenbräu am Gendarmenmarkt'
+            content: '<div class="marker2Info"></div>'
         });
 
         let infowindow3 = new google.maps.InfoWindow({
-            content: 'Courtyard by Marriott Berlin City Center'
+            content: '<div class="marker2Info"></div>'
         });
 
         let infowindow4 = new google.maps.InfoWindow({
-            content: 'Curry museum'
+            content: '<div class="marker2Info"></div>'
         });
 
         let infowindow5 = new google.maps.InfoWindow({
-            content: 'Rocket Tower'
+            content: '<div class="markerFinalInfo"></div>'
         });
 
         marker1.addListener('click', function(event){
             infowindow1.open(map.instance, marker1);
+            marker2.setVisible(true);
+            sidebarQuestPoint[0].classList.add('active')
         }) ;
 
         marker2.addListener('click', function(event){
             infowindow2.open(map.instance, marker2);
+            marker3.setVisible(true);
+            sidebarQuestPoint[1].classList.add('active')
         });
 
         marker3.addListener('click', function(event){
             infowindow3.open(map.instance, marker3);
+            marker4.setVisible(true);
+            sidebarQuestPoint[2].classList.add('active')
         });
 
         marker4.addListener('click', function(event){
             infowindow4.open(map.instance, marker4);
+            marker5.setVisible(true);
+            sidebarQuestPoint[3].classList.add('active')
         });
 
         marker5.addListener('click', function(event){
             infowindow5.open(map.instance, marker5);
+            sidebarQuestPoint[4].classList.add('active')
         });
     });
 
