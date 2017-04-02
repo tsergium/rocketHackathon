@@ -8,7 +8,6 @@ class Start extends Component {
     }
 
     openModal () {
-        document.querySelector('.to-map-button').
         this.setState({ modalActive: true })
     }
 
