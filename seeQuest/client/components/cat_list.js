@@ -8,12 +8,7 @@ class CatList extends Component {
         return (
             <ul className="cat-list">
                 <li>
-                    <Modal
-                        name="White"
-                        description="He loves history"
-                        duration="40min"
-                        color="#cecece"
-                        image="http://localhost:3000/catFace1.png" />
+                    <img className="cat-face" src="/catFace1.png" title="white" />
                     <div className="cat-title">White</div>
                     <div className="cat-description">He loves history</div>
                 </li>
@@ -23,37 +18,22 @@ class CatList extends Component {
                         description="He loves beer"
                         duration="50min"
                         color="#cecece"
-                        image="http://localhost:3000/catFace2.png" />
+                        image="/catFace2.png" />
                     <div className="cat-title">Pint</div>
                     <div className="cat-description">He loves beer</div>
                 </li>
                 <li>
-                    <Modal
-                        name="Chocolat"
-                        description="He has a sweet tooth"
-                        duration="60min"
-                        color="#cecece"
-                        image="http://localhost:3000/catFace3.png" />
+                    <img className="cat-face" src="/catFace3.png" title="white" />
                     <div className="cat-title">Chocolat</div>
                     <div className="cat-description">He has a sweet tooth</div>
                 </li>
                 <li>
-                    <Modal
-                        name="Raphael"
-                        description="He is an art critique"
-                        duration="70min"
-                        color="#cecece"
-                        image="http://localhost:3000/catFace4.png" />
+                    <img className="cat-face" src="/catFace4.png" title="white" />
                     <div className="cat-title">Raphael</div>
                     <div className="cat-description">He is an art critique</div>
                 </li>
                 <li>
-                    <Modal
-                        name="Gray"
-                        description="He loves sightseeing"
-                        duration="70min"
-                        color="#cecece"
-                        image="http://localhost:3000/catFace5.png" />
+                    <img className="cat-face" src="/catFace5.png" title="white" />
                     <div className="cat-title">Gray</div>
                     <div className="cat-description">He loves sightseeing</div>
                 </li>

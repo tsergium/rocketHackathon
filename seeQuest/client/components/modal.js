@@ -17,13 +17,14 @@ class Modal extends Component {
 
     render () {
         return (
-            <div>
+            <div className="modal-windows">
                 <a onClick={this.openModal.bind(this)}>
                     <img className="cat-face" src={this.props.image} />
                 </a>
 
                 {this.state.modalActive && (
                     <div className='modal-dialog'>
+                        <img src="/cat_modal_details" />
                         <a title='Close' onClick={this.closeModal.bind(this)}>X</a>
                         <h2>{this.props.name}</h2>
                         <p>{this.props.description}</p>
