@@ -8,9 +8,11 @@ class SplashScreen extends Component {
         browserHistory.push('/start');
     }
     render() {
+        width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        widthStyle = `min-width: ${width}`;
         return (
             <div>
-                <a href="#" className="splashScreen" onClick={this.redirectTo.bind(this)}></a>
+                <a href="#" className="splashScreen" onClick={this.redirectTo.bind(this)}>&nbsp;</a>
             </div>
         );
     }

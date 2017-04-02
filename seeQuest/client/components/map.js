@@ -3,9 +3,6 @@ import MyMap from './map/mapcontainer';
 import SideBar from './sidebar';
 
 const Map = ({userId}) => {
-    // if (!userId) {
-    //     return <div></div>;
-    // } else {
         return (
             <div className="questMapPage">
                     <SideBar/>
@@ -14,7 +11,6 @@ const Map = ({userId}) => {
                     </div>
             </div>
         );
-    // }
 };
 
 export default Map;

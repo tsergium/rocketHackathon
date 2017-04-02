@@ -176,15 +176,15 @@ function handleMapOptions() {
 function handleOnReady(name) {
     GoogleMaps.ready(name, map => {
         const imagePerson = {
-            url: 'http://localhost:3000/icPerson.png',// image is in root directory of meteor project.
+            url: '/icPerson.png',// image is in root directory of meteor project.
         };
 
         const image = {
-            url: 'http://localhost:3000/greenMarker.png',// image is in root directory of meteor project.
+            url: '/greenMarker.png',// image is in root directory of meteor project.
         };
 
         const imageFinal = {
-            url: 'http://localhost:3000/catMarkerGreen.png',// image is in root directory of meteor project.
+            url: '/catMarkerGreen.png',// image is in root directory of meteor project.
         };
 
         const sidebarQuestPoint = document.querySelectorAll('.questPoints li');
@@ -285,10 +285,10 @@ function handleOnReady(name) {
 }
 
 function MyMap() {
-    let isLoggedIn = Meteor.user();
-    console.log(isLoggedIn);
+    let height = (window.innerHeight > 0) ? window.innerHeight : screen.height;
+    let heightStyle = `min-height: ${height}`;
     return (
-        <GoogleMap onReady={handleOnReady} mapOptions={handleMapOptions}>
+        <GoogleMap onReady={handleOnReady} mapOptions={handleMapOptions} style={heightStyle}>
             Loading!
         </GoogleMap>
     );
