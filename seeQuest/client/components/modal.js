@@ -18,7 +18,9 @@ class Modal extends Component {
     render () {
         return (
             <div>
-                <button onClick={this.openModal.bind(this)}>Open modal</button>
+                <a onClick={this.openModal.bind(this)}>
+                    <img className="cat-face" src={this.props.image} />
+                </a>
 
                 {this.state.modalActive && (
                     <div className='modal-dialog'>
