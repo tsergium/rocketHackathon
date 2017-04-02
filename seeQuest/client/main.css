@@ -97,11 +97,11 @@ body, .navbar-default{background: silver;}
 }
 
 .headerSidebar{
-    background: url("/questSidebarHeaderCat.jpg") no-repeat center center;
+    background: url("/questSidebarHeaderCat.png") no-repeat center center;
     background-size: contain;
     margin: 20px 0 20px 0;
     width: 100%;
-    height: 70px;
+    height: 151px;
     text-align: center;
 }
 
@@ -176,19 +176,31 @@ p.headerSidebarText{
 
 .marker1Info{
     background: url("/marker1Pic.png") no-repeat center center;
-    width: 590px;
-    height: 504px;
+    width: 350px;
+    height: 300px;
     background-size: contain;
 }
 .marker2Info{
     background: url("/marker2Picture.png") no-repeat center center;
-    width: 590px;
-    height: 504px;
+    width: 350px;
+    height: 300px;
+    background-size: contain;
+}
+.marker3Info{
+    background: url("/marker3Picture.png") no-repeat center center;
+    width: 350px;
+    height: 300px;
+    background-size: contain;
+}
+.marker4Info{
+    background: url("/marker4Picture.png") no-repeat center center;
+    width: 350px;
+    height: 300px;
     background-size: contain;
 }
 .markerFinalInfo{
     background: url("/markerFinalPicture.png") no-repeat center center;
-    width: 590px;
-    height: 504px;
+    width: 600px;
+    height: 490px;
     background-size: contain;
 }

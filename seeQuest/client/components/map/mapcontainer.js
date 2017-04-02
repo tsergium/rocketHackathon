@@ -241,11 +241,11 @@ function handleOnReady(name) {
         });
 
         let infowindow3 = new google.maps.InfoWindow({
-            content: '<div class="marker2Info"></div>'
+            content: '<div class="marker3Info"></div>'
         });
 
         let infowindow4 = new google.maps.InfoWindow({
-            content: '<div class="marker2Info"></div>'
+            content: '<div class="marker4Info"></div>'
         });
 
         let infowindow5 = new google.maps.InfoWindow({
